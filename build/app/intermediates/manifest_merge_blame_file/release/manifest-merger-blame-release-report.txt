@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <application
+14-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:5:4-33:19
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] C:\Users\TOUHAMA\.gradle\caches\transforms-3\4e625463dcf9cfb6dbd0144cbcef9cfc\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="Weather" >
+17-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:6:9-32
+18        <activity
+18-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:8:9-27:20
+19            android:name="com.example.task.MainActivity"
+19-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:9:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:12:13-163
+21            android:hardwareAccelerated="true"
+21-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:13:13-47
+22            android:launchMode="singleTop"
+22-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:10:13-43
+23            android:theme="@style/LaunchTheme"
+23-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:11:13-47
+24            android:windowSoftInputMode="adjustResize" >
+24-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:14:13-55
+25
+26            <!--
+27                 Specifies an Android theme to apply to this Activity as soon as
+28                 the Android process has started. This theme is visible to the user
+29                 while the Flutter UI initializes. After that, this theme continues
+30                 to determine the Window background behind the Flutter UI.
+31            -->
+32            <meta-data
+32-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:19:13-22:17
+33                android:name="io.flutter.embedding.android.NormalTheme"
+33-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:20:15-70
+34                android:resource="@style/NormalTheme" />
+34-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:21:15-52
+35
+36            <intent-filter>
+36-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:23:13-26:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:24:17-68
+37-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:24:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:25:17-76
+39-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:25:27-74
+40            </intent-filter>
+41        </activity>
+42        <!--
+43             Don't delete the meta-data below.
+44             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+45        -->
+46        <meta-data
+46-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:30:9-32:33
+47            android:name="flutterEmbedding"
+47-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:31:13-44
+48            android:value="2" />
+48-->C:\Users\TOUHAMA\AndroidStudioProjects\task\android\app\src\main\AndroidManifest.xml:32:13-30
+49
+50        <uses-library
+50-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+51            android:name="androidx.window.extensions"
+51-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+53        <uses-library
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+54            android:name="androidx.window.sidecar"
+54-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0-beta04] C:\Users\TOUHAMA\.gradle\caches\transforms-3\fdae3951b3b8c86b1435e8789c5b3a34\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+56    </application>
+57
+58</manifest>
