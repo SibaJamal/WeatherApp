@@ -18,10 +18,8 @@ class WeatherCard extends StatelessWidget {
         child: Container(
           width: 200,
           decoration:BoxDecoration(
-                  border: Border.all(color: Theme.of(context).accentColor , width: 3),
+                  border: Border.all(color: Theme.of(context).colorScheme.secondary , width: 3),
                   borderRadius: BorderRadius.circular(15),
-                  //
-                  // color: kPrimaryColor,
           ),
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 15.0,horizontal: 15.0),
