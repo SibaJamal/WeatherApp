@@ -7,7 +7,9 @@ class AppTheme {
   const AppTheme._();
 
   static final darkTheme = ThemeData(
-    accentColor: darkAccentColor ,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+      secondary: darkAccentColor,
+    ),
     iconTheme: const IconThemeData(color: Colors.white),
     scaffoldBackgroundColor: darkBackgroundColor,
     backgroundColor: darkBackgroundColor,
@@ -19,7 +21,9 @@ class AppTheme {
 
 
   static final lightTheme = ThemeData(
-    accentColor: lightAccentColor,
+      colorScheme: ColorScheme.fromSwatch().copyWith(
+      secondary: lightAccentColor,
+      ),
     iconTheme: const IconThemeData(color: Colors.white),
     scaffoldBackgroundColor: lightBackgroundColor,
     backgroundColor: lightBackgroundColor,
