@@ -7,30 +7,26 @@ class AppTheme {
   const AppTheme._();
 
   static final darkTheme = ThemeData(
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-      secondary: darkAccentColor,
-    ),
-    iconTheme: const IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.white),
     scaffoldBackgroundColor: darkBackgroundColor,
-    backgroundColor: darkBackgroundColor,
       textTheme: const TextTheme(
-        bodyText2: kTextStyle,
-        bodyText1: kTextStyleBold,
-      ),
+        titleMedium: kTextStyle,
+        titleLarge: kTextStyleBold,
+      ), colorScheme: ColorScheme.fromSwatch().copyWith(
+      secondary: darkAccentColor,
+    ).copyWith(surface:darkAccentColor),
   );
 
 
   static final lightTheme = ThemeData(
-      colorScheme: ColorScheme.fromSwatch().copyWith(
-      secondary: lightAccentColor,
-      ),
-    iconTheme: const IconThemeData(color: Colors.white),
+      iconTheme: const IconThemeData(color: Colors.white),
     scaffoldBackgroundColor: lightBackgroundColor,
-    backgroundColor: lightBackgroundColor,
     textTheme: const TextTheme(
-      bodyText2: kTextStyle,
-      bodyText1: kTextStyleBold,
-    ),
+      titleMedium: kTextStyle,
+      titleLarge: kTextStyleBold,
+    ), colorScheme: ColorScheme.fromSwatch().copyWith(
+      secondary: lightAccentColor,
+      ).copyWith(surface: lightAccentColor),
   );
 
   static Brightness get currentSystemBrightness => SchedulerBinding.instance.window.platformBrightness;

@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:4:5-79
+15-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:4:22-76
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.task.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.task.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:5:4-34:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] /Users/siba/.gradle/caches/transforms-4/52643ca2fe57a24532b8931a7e3d8a12/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:7:9-43
+28        android:label="Weather" >
+28-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:6:9-32
+29        <activity
+29-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:8:9-28:20
+30            android:name="com.example.task.MainActivity"
+30-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:9:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:13:13-163
+32            android:exported="true"
+32-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:10:13-36
+33            android:hardwareAccelerated="true"
+33-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:14:13-47
+34            android:launchMode="singleTop"
+34-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:11:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:12:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:15:13-55
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+44-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:20:13-23:17
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:21:15-70
+46                android:resource="@style/NormalTheme" />
+46-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:22:15-52
+47
+48            <intent-filter>
+48-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:24:13-27:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:25:17-68
+49-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:25:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:26:17-76
+51-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:26:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:31:9-33:33
+59            android:name="flutterEmbedding"
+59-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:32:13-44
+60            android:value="2" />
+60-->/Users/siba/StudioProjects/WeatherApp/android/app/src/main/AndroidManifest.xml:33:13-30
+61
+62        <uses-library
+62-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+63            android:name="androidx.window.extensions"
+63-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+64            android:required="false" />
+64-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+65        <uses-library
+65-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+66            android:name="androidx.window.sidecar"
+66-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+67            android:required="false" />
+67-->[androidx.window:window:1.2.0] /Users/siba/.gradle/caches/transforms-4/f790d2f0ac28a2d1c3d42de3bb8428c7/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+68
+69        <provider
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.task.androidx-startup"
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/siba/.gradle/caches/transforms-4/56eef5150256b7fe43a93af29c2ba240/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siba/.gradle/caches/transforms-4/64dd4ce494621426b3c0ed96d7ad2eca/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>

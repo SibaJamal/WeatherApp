@@ -14,6 +14,7 @@ class NetworkHelper {
       Response response = await dio.get(url, options: buildCacheOptions(const Duration(days: 1), forceRefresh: true,),);
       if (response.statusCode == 200) {
         var data = jsonDecode(jsonEncode(response.data)) as Map<String, dynamic>;
+        print(data);
         return data;
       }
     } catch (e){

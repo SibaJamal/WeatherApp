@@ -1,0 +1,2 @@
+/Users/siba/StudioProjects/WeatherApp/android/app/.cxx/Debug/632g3s1h/x86/CMakeFiles/edit_cache.dir
+/Users/siba/StudioProjects/WeatherApp/android/app/.cxx/Debug/632g3s1h/x86/CMakeFiles/rebuild_cache.dir

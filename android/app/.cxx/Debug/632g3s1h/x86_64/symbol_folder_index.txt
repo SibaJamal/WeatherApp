@@ -1,0 +1,1 @@
+/Users/siba/StudioProjects/WeatherApp/build/app/intermediates/cxx/Debug/632g3s1h/obj/x86_64
