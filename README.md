@@ -13,10 +13,10 @@ using Bloc as state management and Domain driven design (DDD) as design architec
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/wethae_light1.png" width="250" />
-  <img src="screenshots/wethae_light2.png" width="250" />
-  <img src="screenshots/wethae_dark1.png" width="250" />
-  <img src="screenshots/wethae_dark2.png" width="250" />
+  <img src="screenshots/weather_light1.png" width="250" />
+  <img src="screenshots/weather_light2.png" width="250" />
+  <img src="screenshots/weather_dark1.png" width="250" />
+  <img src="screenshots/weather_dark2.png" width="250" />
 </p>
 
 ---
