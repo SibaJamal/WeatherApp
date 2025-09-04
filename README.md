@@ -13,9 +13,10 @@ using Bloc as state management and Domain driven design (DDD) as design architec
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="250" />
-  <img src="screenshots/details.png" width="250" />
-  <img src="screenshots/profile.png" width="250" />
+  <img src="screenshots/wethae_light1.png" width="250" />
+  <img src="screenshots/wethae_light2.png" width="250" />
+  <img src="screenshots/wethae_dark1.png" width="250" />
+  <img src="screenshots/wethae_dark2.png" width="250" />
 </p>
 
 ---
@@ -27,6 +28,3 @@ using Bloc as state management and Domain driven design (DDD) as design architec
 - [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) – Architecture  
 
 
-
-# Run the app
-flutter run
