@@ -5,8 +5,9 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 ## 📖 About the Project
-weather application provides information about the weather for the city of Dubai at the present time and for the next five days,
-using Bloc as state management and Domain driven design (DDD) as design architecture.
+🌤️ Weather Application: provides information about the weather 🌡️ for the city of Dubai 🏙️ at the present time ⏰ and for the next five days 📅.
+
+⚡ Built using BLoC 🧩 for state management and Domain-Driven Design (DDD) 🏗️ as the design architecture.
 
 ---
 
